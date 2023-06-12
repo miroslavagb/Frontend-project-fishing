@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images\favikon4e" rel="icon" type="image/x-icon" />
+    <title>B&M Fishing-Онлайн риболовен магазин</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>   
+
+<body>
+    <section id="header">
+        <a href="#"><img src="images\nai logo.png" class="logo" alt=""  onclick="window.location.href='index.html';"></a>
+    
+        <div> 
+            <ul id="navbar">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="shop.html">Магазин</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="about.html">За нас</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+                <li><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <div style="position:relative; left:10%;">
+            <h2 >Количка</h2>
+            <p></p>
+        </div>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Премахни</td>
+                    <td>Снимка</td>
+                    <td>Продукт</td>
+                    <td>Цена</td>
+                    <td>Количество</td>
+                    <td>Общо</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="images\products\dreha.png" alt=""></td>
+                    <td>Зимен плаващ костюм</td>
+                    <td>378лв</td>
+                    <td><input type="number" value="1"></td>
+                    <td>378лв</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="images\products\v2.jpg" alt=""></td>
+                    <td>Воблер</td>
+                    <td>14лв</td>
+                    <td><input type="number" value="1"></td>
+                    <td>14лв</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="images\products\ribarski stol.png" alt=""></td>
+                    <td>Рибарски стол,шезлонг 2в1</td>
+                    <td>379лв</td>
+                    <td><input type="number" value="1"></td>
+                    <td>379лв</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="images\products\rozova vudica.png" alt=""></td>
+                    <td>Телескоп с водачи</td>
+                    <td>112лв</td>
+                    <td><input type="number" value="1"></td>
+                    <td>112лв</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Приложи купон</h3>
+            <div>
+                <input type="text" placeholder="Въведи твоя купон">
+                <button class="normal">Приложи</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Общо</h3>
+            <table>
+                <tr>
+                    <td>Общо</td>
+                    <td>883лв</td>
+                </tr>
+                <tr>
+                    <td>Доставка</td>
+                    <td>Безплатна</td>
+                </tr>
+                <tr>
+                    <td><strong>Крайна цена </strong></td>
+                    <td><strong>883лв</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Продължи към плащането</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images\nai logo.png" width="150" height="60" alt="">
+            <h4>Контакти</h4>
+            <p><strong>Телефон:</strong>+359 888 81 68 530</p>
+            <p><strong>Адрес:</strong>България, София ул.Тодор Бонев 43А </p>
+            <p><strong>Имейл:</strong> <a href="mailto:m&b-fishing@gmail.com">m&b-fishing@gmail.com</a></p>
+            <p><strong>Работно време:</strong>Пон.-Пет.: 10:00 -19:00 Съб.: 10:00 - 14:00</p>
+            <div class="follow">
+                <h4>Последвай ни</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Информация</h4>
+            <a href="#">За нас</a>
+            <a href="#" onclick="window.location.href='usloviq.html';">Общи условия</a>
+            <a href="#" onclick="window.location.href='usloviq.html';">Доставка и плащане</a>
+            <a href="#" onclick="window.location.href='usloviq.html';">Поверителност</a>
+            <a href="#" onclick="window.location.href='usloviq.html';">Връщане на  стоки</a>
+        </div>
+
+        <div class="col">
+            <h4>Моят профил</h4>
+            <a href="#">Моите поръчки</a>
+            <a href="#">Кредитни известия</a>
+            <a href="#">Моите адреси</a>
+            <a href="#">Лична информация</a>
+            <a href="#">Любими продукти</a>
+            <a href="#">Моите ваучери</a>
+        </div>
+
+        <div class="payment"> 
+            <img src="images\pay\pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022,B&M Fishing Всички права са запазени</p>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
